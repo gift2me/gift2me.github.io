@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "username": "Samanta",
+    "imageUrl": "https://via.placeholder.com/300",
+    "caption": "Descrição da primeira postagem.",
+    "pixUrl": "https://via.placeholder.com/100"
+  },
+  {
+    "id": 2,
+    "username": "Gabriel",
+    "imageUrl": "https://via.placeholder.com/300",
+    "caption": "Descrição da segunda postagem.",
+    "pixUrl": "https://via.placeholder.com/100"
+  },
+  {
+    "id": 3,
+    "username": "Samanta",
+    "imageUrl": "https://via.placeholder.com/300",
+    "caption": "Descrição da terceira postagem.",
+    "pixUrl": "https://via.placeholder.com/100"
+  },
+  {
+    "id": 4,
+    "username": "user4",
+    "imageUrl": "https://via.placeholder.com/300",
+    "caption": "Descrição da quarta postagem.",
+    "pixUrl": "https://via.placeholder.com/100"
+  },
+  {
+    "id": 5,
+    "username": "Samanta e Gabriel",
+    "imageUrl": "https://via.placeholder.com/300",
+    "caption": "Descrição da quinta postagem.",
+    "pixUrl": "https://via.placeholder.com/100"
+  }
+]
