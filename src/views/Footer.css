@@ -1,0 +1,16 @@
+footer {
+  background-color: #fafafac0; /* Cor de fundo semelhante ao Instagram */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+p {
+  margin: 0;
+  font-size: 14px; /* Tamanho da fonte ajustável */
+  color: #999; /* Cor do texto semelhante ao Instagram */
+}

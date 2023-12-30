@@ -5,7 +5,6 @@ import './NavBar.css';
 
 function NavBar() {
   const location = useLocation();
-
   return (
     <nav>
       <div className="logo">S&G</div>
@@ -17,7 +16,7 @@ function NavBar() {
           <Link to="/bridal-shower">Chá da Samanta</Link>
         </li>
         <li className={location.pathname === '/marriage' ? 'active' : ''}>
-          <Link to="/marriage">Casamento Samanta e Gabriel</Link>
+          <Link to="/marriage">Nosso Casamento</Link>
         </li>
       </ul>
     </nav>

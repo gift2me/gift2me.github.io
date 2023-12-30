@@ -4,6 +4,7 @@ import BridalShower from './BridalShower';
 import Marriage from './Marriage';
 import Home from './Home';
 import NavBar from './NavBar';
+import Footer from './Footer';
 
 function AppRoutes() {
   return (
@@ -14,6 +15,7 @@ function AppRoutes() {
         <Route path="/bridal-shower" element={<BridalShower />} />
         <Route path="/marriage" element={<Marriage />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 };

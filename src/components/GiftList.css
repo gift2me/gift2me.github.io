@@ -7,12 +7,14 @@
 }
 
 .gift-list {
+  padding: 8px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
 .gift-post {
+  padding: 8px;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
@@ -36,12 +38,21 @@
 }
 
 .pix {
+  width: 100%;
   padding: 8px;
   font-size: 12px;
-  color: #888;
+  color: #fff; /* Cor do texto branco para melhor contraste */
+  background-color: #36a71ad5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor */
 }
 
-/* Adicionando regras de mídia para dispositivos móveis */
+.pix:hover {
+  background-color: #8fbc8f; /* Altera a cor ao passar o mouse */
+}
+
 @media (max-width: 600px) {
   .gift-list {
     grid-template-columns: 1fr;
