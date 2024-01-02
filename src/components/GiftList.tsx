@@ -22,7 +22,9 @@ const GiftList: React.FC<GiftListProps> = ({ gifts }) => {
     <div className="gift-list">
       {gifts.map((gift) => (
         <div key={gift.id} className="gift-post">
-          <img src={generateImageUrlByCaption(gift.id.toString(), gift.caption)} alt={`Post by ${gift.username}`} />
+          <div className='contenedor-imagem'>
+            <img  src={gift.imageUrl} alt={`Post by ${gift.username}`} />
+          </div>
           <div className="caption">{gift.caption}</div>
           <div className="username">{gift.username}</div>
           <div className='value'>{formatNumberToReal(gift.value)}</div>
