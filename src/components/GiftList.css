@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 .app {
   display: flex;
@@ -28,7 +28,7 @@
 
 .caption {
   padding: 8px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .username {
@@ -37,20 +37,26 @@
   color: #888;
 }
 
+.value {
+  padding: 8px;
+  font-size: 20px;
+  color: #888;
+}
+
 .pix {
   width: 100%;
   padding: 8px;
   font-size: 12px;
-  color: #fff; /* Cor do texto branco para melhor contraste */
+  color: #fff;
   background-color: #36a71ad5;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor */
+  transition: background-color 0.3s ease;
 }
 
 .pix:hover {
-  background-color: #8fbc8f; /* Altera a cor ao passar o mouse */
+  background-color: #8fbc8f;
 }
 
 @media (max-width: 600px) {

@@ -2,12 +2,13 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css';
+import logo from '../assets/logo.png';
 
 function NavBar() {
   const location = useLocation();
   return (
     <nav>
-      <div className="logo">S&G</div>
+      <img className="logo" src={logo} alt="Logo" />
       <ul>
         <li className={location.pathname === '/' ? 'active' : ''}>
           <Link to="/">Home</Link>

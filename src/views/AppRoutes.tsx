@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
-import BridalShower from './BridalShower';
-import Marriage from './Marriage';
-import Home from './Home';
+import BridalShower from './pages/BridalShower';
+import Marriage from './pages/Marriage';
+import Home from './pages/Home';
 import NavBar from './NavBar';
 import Footer from './Footer';
 

@@ -21,7 +21,12 @@ nav {
     padding: 0;
     display: flex;
   }
-  
+
+  img {
+    width: 50px; /* Ajuste conforme necessário */
+    margin-right: 10px;
+  }
+
   li {
     margin-right: 15px;
   }
@@ -34,11 +39,11 @@ nav {
   }
   
   a:hover {
-    color: #33ff00;
+    color: #2fa312;
   }
   
   .active a {
-    color: #23a712d0; /* Cor para indicar a aba ativa */
+    color: #1a6610d0; /* Cor para indicar a aba ativa */
   }
   
   /* Adicionando regras de mídia para dispositivos móveis */

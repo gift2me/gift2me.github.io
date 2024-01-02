@@ -3,6 +3,7 @@
     "id": 1,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Toma aqui uns 50 reais",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "A caneca preferida do noivo",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -17,6 +19,7 @@
     "id": 3,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Primeiro jantar dos noivos",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -24,6 +27,7 @@
     "id": 4,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Engov, muito engov para noiva :)",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -31,6 +35,7 @@
     "id": 5,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Quadros da hora",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -38,6 +43,7 @@
     "id": 6,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Despedida de solteiro do noivo",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -45,6 +51,7 @@
     "id": 7,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Curso de culinária para noivo",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -52,6 +59,7 @@
     "id": 8,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Rolo de macarrão da noiva",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -59,6 +67,7 @@
     "id": 9,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Capacete contra rolo de macarrão",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -66,6 +75,7 @@
     "id": 10,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Camiseta da fúria para o noivo",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -73,6 +83,7 @@
     "id": 11,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "1/10 de uma parcela do apartamento",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -80,6 +91,7 @@
     "id": 12,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Ajusda de custo para pagar os docinhos",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -87,6 +99,7 @@
     "id": 13,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Kit churras do patrão",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -94,6 +107,7 @@
     "id": 14,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Lingerie chic",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   },
@@ -101,6 +115,7 @@
     "id": 15,
     "username": "Samanta & Gabriel",
     "imageUrl": "https://via.placeholder.com/300",
+    "value": 150,
     "caption": "Pagar as 2 hras de desenvolvimento desse site pro noivo",
     "pixUrl": "https://nubank.com.br/cobrar/3z83j/65909edb-8b9e-4e5d-8380-4b9f53b64d36"
   }

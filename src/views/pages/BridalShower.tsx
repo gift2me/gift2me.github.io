@@ -1,6 +1,6 @@
 import React from 'react';
-import  GiftList from '../components/GiftList'
-import gifts from '../store/BridalShowerGifts.json'
+import  GiftList from '../../components/GiftList'
+import gifts from '../../store/BridalShowerGifts.json'
 
 function BridalShower() {
   return (

@@ -1,10 +1,12 @@
 import './GiftList.css';
 import generateImageUrlByCaption from '../utils/ImgGenerator';
+import formatNumberToReal from '../utils/Money';
 interface Gift {
   id: number;
   username: string;
   imageUrl: string;
   caption: string;
+  value: number;
   pixUrl: string;
 }
 
@@ -22,8 +24,9 @@ const GiftList: React.FC<GiftListProps> = ({ gifts }) => {
         <div key={gift.id} className="gift-post">
           <img src={generateImageUrlByCaption(gift.id.toString(), gift.caption)} alt={`Post by ${gift.username}`} />
           <div className="caption">{gift.caption}</div>
-          <div className="username">Postado por {gift.username}</div>
-          < button className="pix" onClick={() => handlePixClick(gift.pixUrl)}>Presentear</button>
+          <div className="username">{gift.username}</div>
+          <div className='value'>{formatNumberToReal(gift.value)}</div>
+          <button className="pix" onClick={() => handlePixClick(gift.pixUrl)}>Presentear</button>
         </div>
       ))}
     </div>

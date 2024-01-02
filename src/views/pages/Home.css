@@ -1,6 +1,7 @@
 .home {
-    background-image: url('https://img.freepik.com/vetores-premium/design-de-convite-de-casamento-verde-com-floral-e-aquarela_118960-4626.jpg'); /* Adicione o caminho correto para a sua imagem */
+    background-image: url('../../assets/background.png');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     display: flex;
@@ -10,7 +11,6 @@
   }
   
   .overlay {
-    background-color: rgba(255, 255, 255, 0.7); /* Cor do fundo com transparência */
     padding: 20px;
     text-align: center;
     border-radius: 10px;
