@@ -16,9 +16,9 @@ function NavBar() {
         <li className={location.pathname === '/bridal-shower' ? 'active' : ''}>
           <Link to="/bridal-shower">Chá da Samanta</Link>
         </li>
-        <li className={location.pathname === '/marriage' ? 'active' : ''}>
+        {/* <li className={location.pathname === '/marriage' ? 'active' : ''}>
           <Link to="/marriage">Nosso Casamento</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

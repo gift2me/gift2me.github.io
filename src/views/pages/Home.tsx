@@ -1,13 +1,23 @@
 import React from 'react';
 import './Home.css';
-import backgroundImage from '../../assets/background.png'
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <div className="home">
       <div className="overlay">
-        <h1>Bem-vindos ao Nosso Casamento</h1>
-        <p>Descubra o amor que nos une</p>
+        <h1>Bem vindas</h1>
+        <p>Lista de presentes divertida via pix</p>
+        <div className='switch'>
+          <div>
+            <Link to="/bridal-shower"><button className='button'>Chá da Samanta</button></Link>
+          </div>
+          {/* <div>
+            <Link  to="/marriage">
+              <button className='button' >Casamento</button>
+            </Link>
+          </div> */}
+        </div>
       </div>
   </div>
   );
