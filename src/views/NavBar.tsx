@@ -11,11 +11,11 @@ function NavBar() {
       <img className="logo" src={logo} alt="Logo" />
       <ul>
         <li className={location.pathname === '/' ? 'active' : ''}>
-          <Link to="/">Home</Link>
+          <Link to="/">Nosso Casamento</Link>
         </li>
-        <li className={location.pathname === '/bridal-shower' ? 'active' : ''}>
+        {/* <li className={location.pathname === '/bridal-shower' ? 'active' : ''}>
           <Link to="/bridal-shower">Chá da Samanta</Link>
-        </li>
+        </li> */}
         {/* <li className={location.pathname === '/marriage' ? 'active' : ''}>
           <Link to="/marriage">Nosso Casamento</Link>
         </li> */}

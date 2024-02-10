@@ -1,5 +1,5 @@
 import './GiftList.css';
-import generateImageUrlByCaption from '../utils/ImgGenerator';
+import convertMoneyToPixURL from '../utils/MoneyToPix';
 import formatNumberToReal from '../utils/Money';
 interface Gift {
   id: number;
@@ -28,7 +28,7 @@ const GiftList: React.FC<GiftListProps> = ({ gifts }) => {
           <div className="caption">{gift.caption}</div>
           <div className="username">{gift.username}</div>
           <div className='value'>{formatNumberToReal(gift.value)}</div>
-          <button className="pix" onClick={() => handlePixClick(gift.pixUrl)}>Presentear</button>
+          <button className="pix" onClick={() => handlePixClick(convertMoneyToPixURL(gift.value))}>Presentear</button>
         </div>
       ))}
     </div>
