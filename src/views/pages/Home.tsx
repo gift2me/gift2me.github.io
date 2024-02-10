@@ -24,7 +24,12 @@ function Home() {
         </div> */}        
       </div>
       <img src={pix} alt="Casal de noivos" className='imgPix' />
-      <ClipboardButton text='00020126630014BR.GOV.BCB.PIX0111080266039820226Obrigada por contribuir S25204000053039865802BR5923Samanta Santinoni Souza6009SAO PAULO62140510FNuzrHLjS06304099E' /> 
+      <br></br>
+      <div >
+        <ClipboardButton text='00020126630014BR.GOV.BCB.PIX0111080266039820226Obrigada por contribuir S25204000053039865802BR5923Samanta Santinoni Souza6009SAO PAULO62140510FNuzrHLjS06304099E' /> 
+      </div>
+      <br></br>
+      <p>Obrigado pelo carinho!</p>
   </div>
   );
 }

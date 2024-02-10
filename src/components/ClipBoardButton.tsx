@@ -6,13 +6,13 @@ const ClipboardButton: React.FC<{ text: string }> = ({ text }) => {
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(text)
-      .then(() => setCopied(true))
+      .then(() => setCopied(!copied))
       .catch(err => console.error('Failed to copy:', err));
   };
 
   return (
     <div>
-      <button onClick={copyToClipboard}>
+      <button onClick={copyToClipboard} className='button'>
         {copied ? 'Copiado!' : 'Copiar código do QR Code'}
       </button>
     </div>
